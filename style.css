@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+/* Main container */
+.main-container{
+    padding-top: 10%;
+    font-family: "Hanken Grotesk";
+    font-weight: 800;
+}
+
+.container{
+    box-shadow: 5px 15px 10px hsl(221, 100%, 96%), 0 -2px 10px hsl(221, 100%, 96%);
+    border-radius: 25px;
+    width: 500px;
+}
+
+/* First card */
+.first{
+    height: 20rem;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: -5px 0px 10px lightblue;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.first-content{
+    padding: 10% 20%;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+    padding: 35px 15px;
+    margin: auto;
+}
+.great{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+p{
+    font-size: x-small;
+    color: hsl(241, 100%, 89%);
+}
+
+/* Second card */
+.second{
+    
+}
+
+.second-content{
+    padding: 20px;
+}
+
+img{
+    height: 10px;
+    width: 10px;
+}
+
+.content{
+    margin: 10px 5px;
+    padding: 0 5px;
+}
+
+.position-text{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+span{
+    color: hsl(224, 30%, 27%);
+}
+
+/* More content */
+.reaction{
+    background-color: hsl(0, 82%, 96%);
+    border-radius: 5px;
+}
+.reaction .content-color{
+    color: hsl(0, 100%, 67%);
+}
+
+.memory{
+    background-color: hsl(40, 79%, 96%);
+    border-radius: 5px;
+}
+.memory .content-color{
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+    background-color: hsl(167, 64%, 95%);
+    border-radius: 5px;
+}
+.verbal .content-color{
+    color: hsl(166, 100%, 37%);
+}
+
+.visual{
+    background-color: hsl(231, 84%, 95%);
+    border-radius: 5px;
+}
+.visual .content-color{
+    color: hsl(234, 85%, 45%);
+}
+
+button{
+    border-style: none;
+    border-radius: 25px;
+    background-color: hsl(224, 30%, 27%);
+    height: 30px;
+    margin-top: 0.5rem;
+}
+
+.button-link{
+    text-decoration: none;
+    padding: 30px 55px;
+    color: hsl(0, 0%, 100%);
+    font-size: small;
+}
+
+/* Hover */
+.button-link:hover{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+/* Challenge info */
+.attribution {
+    font-size: 11px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-container{
+        padding-top: 0;
+        font-size: 5px;
+    }
+
+    .first{
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0 0 25px 25px;
+        
+    }
+
+    .container{
+        height: 90vh;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .attribution{
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 25%;
+    }
+
+    .position-text{
+        padding: 10px 10px;
+    }
+}
